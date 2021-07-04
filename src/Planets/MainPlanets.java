@@ -8,8 +8,10 @@ public class MainPlanets {
         pl[1] = new Mars();
         pl[2] = new Mercury();
         pl[3] = new Uranus();
-        for (Planet i : pl) {
-            System.out.println("Planet " + i + " has a g=" + i.G + "м/с2");
+        for (int i=0; i< pl.length; i++) {
+            float g = ((PlanetInterface) pl[i]).getG();
+            String n = ((Planet) pl[i]).getPlName();
+            System.out.println("Planet " + n + " has a g=" + g + "м/с2");
         }
     }
 }
