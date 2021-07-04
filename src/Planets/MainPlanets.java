@@ -9,7 +9,7 @@ public class MainPlanets {
         pl[2] = new Mercury();
         pl[3] = new Uranus();
         for (Planet i : pl) {
-            System.out.println(i.G);
+            System.out.println("Planet "+i+ " has a " + i.G);
         }
     }
 
