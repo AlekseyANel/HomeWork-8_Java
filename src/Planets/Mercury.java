@@ -1,6 +1,6 @@
 package Planets;
 
-public    class Mercury extends MainPlanets.Planet implements MainPlanets.PlanetInterface {
+public    class Mercury extends Planet implements PlanetInterface {
     int number = 1;
     double mas = 97360000;
     float G = (float) 3.7;
