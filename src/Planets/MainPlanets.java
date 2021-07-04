@@ -9,7 +9,7 @@ public class MainPlanets {
         pl[2] = new Mercury();
         pl[3] = new Uranus();
         for (Planet i : pl) {
-            System.out.println("Planet " + i + " has a g=" + i.G + "м/с2");
+            System.out.println("Planet " + i + " has a g=" + i.getG() + "м/с2");
         }
     }
 }
